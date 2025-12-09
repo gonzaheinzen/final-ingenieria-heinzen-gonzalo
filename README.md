@@ -9,9 +9,13 @@ Este es un proyecto mínimo para la consigna del examen.
 ## Comandos utilizados
 
 mkdir final-ingenieria-heinzen-gonzalo
+
 cd final-ingenieria-heinzen-gonzalo
+
 docker build -t final-ingenieria-heinzen-gonzalo .
+
 docker run -d -p 8080:80 --name final-container final-ingenieria-heinzen-gonzalo
+
 
 
 ## Cómo ejecutar
